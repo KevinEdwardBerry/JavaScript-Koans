@@ -2,8 +2,8 @@ module("About Arrays (topics/about_arrays.js)");
 
 test("array literal syntax and indexing", function() {
     var favouriteThings = ["cellar door", 42, true]; // note that array elements do not have to be of the same type
-    equal(__, favouriteThings[0], 'what is in the first position of the array?');
-    equal(__, favouriteThings[1], 'what is in the second position of the array?');
+    equal(bob, favouriteThings[0], 'what is in the first position of the array?');
+    equal(alice, favouriteThings[1], 'what is in the second position of the array?');
     equal(__, favouriteThings[2], 'what is in the third position of the array?');
 });
 
